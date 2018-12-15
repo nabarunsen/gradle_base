@@ -42,7 +42,7 @@ publishing {
 }
 
 artifactory {
-    contextUrl = 'http://http://ec2-13-250-14-218.ap-southeast-1.compute.amazonaws.com::8081/artifactory'
+    contextUrl = 'http://ec2-13-250-14-218.ap-southeast-1.compute.amazonaws.com::8081/artifactory'
     publish {
         repository {
             repoKey = 'gradle_base' // The Artifactory repository key to publish to

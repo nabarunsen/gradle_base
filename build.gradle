@@ -45,7 +45,7 @@ artifactory {
     contextUrl = 'http://http://ec2-13-250-14-218.ap-southeast-1.compute.amazonaws.com::8081/artifactory'
     publish {
         repository {
-            repoKey = 'libs-snapshot-local' // The Artifactory repository key to publish to
+            repoKey = 'gradle_base' // The Artifactory repository key to publish to
             username = "${artifactory_user}" // The publisher user name
             password = "${artifactory_password}" // The publisher password
         }
